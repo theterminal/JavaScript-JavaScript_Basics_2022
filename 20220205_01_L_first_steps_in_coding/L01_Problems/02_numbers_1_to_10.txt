@@ -1,0 +1,38 @@
+// 20220205 - JavaScript - Programming Basics - First Steps in Coding
+// 02 - Numbers from 1 to 10 - judge: https://judge.softuni.org/Contests/Compete/Index/2399#1
+
+
+Напишете функция, която отпечатва числата от 1 до 10 на отделни редове на конзолата.
+
+Насоки:
+------
+    *) Създайте нов JavaScript файл в съществуващата папка и го именувайте "Nums-1-To-10".
+       Използвайте тялото на функцията "nums1To10()":
+
+function numbersFrom1To10() {
+    // Your code here
+}
+
+// Call the fuction to execute the code inside
+numbersFrom1To10();
+
+
+    *) Напишете 10 команди console.log(), една след друга, за да отпечатате числата от 1 до 10.
+
+function numbersFrom1To10() {
+  console.log(1);
+  console.log(2);
+  console.log(3);
+  console.log(4);
+  console.log(5);
+  console.log(6);
+  console.log(7);
+  console.log(8);
+  console.log(9);
+  console.log(10);
+}
+
+
+    *) Стартирайте програмата с: Ctrl + F5. За да получите резултат трябва да "извикате" функцията.
+
+numbersFrom1To10()
