@@ -45,58 +45,7 @@ greetings(["Niki"]);
 
     *) Тествайте решението си в judge, без да включвате извикването на функцията.
 
+[Running] node "/Users/borasam/VSCProjects/JavaScript/JavaScript_01_programming_basics_2022/20220205_01_L_first_steps_in_coding/05_greetings_by_name.js"
+Hello, Niki!
 
-_______________ Test Data ________________
-
-
-Input 1:
--------
-
-
-Output 1:
---------
-
-
-------------------------------------------
-
-
-Input 2:
--------
-
-
-Output 2:
---------
-
-
-------------------------------------------
-
-
-Input 3:
--------
-
-
-Output 3:
---------
-
-
-------------------------------------------
-
-
-Input 4:
--------
-
-
-Output 4:
---------
-
-
-------------------------------------------
-
-
-function greetingsByName(input) {
-  let name = input[0];
-  let greeting = "Hello, " + name + "!";
-
-  console.log(greeting);
-}
-greetingsByName(["Kiril"])
+[Done] exited with code=0 in 1.391 seconds
