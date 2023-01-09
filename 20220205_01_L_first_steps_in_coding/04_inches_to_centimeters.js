@@ -8,4 +8,5 @@ function InchesToCentimeters(input) {
 
   console.log(centimeters);
 }
+
 InchesToCentimeters(["10"])
