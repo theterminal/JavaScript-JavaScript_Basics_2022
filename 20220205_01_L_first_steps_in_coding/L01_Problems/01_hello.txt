@@ -1,0 +1,37 @@
+// 20220205 - JavaScript - Programming Basics - First Steps in Coding
+// 01 - Hello Softuni - judge: https://judge.softuni.org/Contests/Compete/Index/2399#0
+
+
+Напишете функция, която отпечатва текста "Hello SoftUni".
+
+Насоки:
+------
+    *) Създайте нов JavaScript файл в съществуващата папка и го именувайте подходящо.
+       Препоръчително е всеки скриптов файл да се казва както името на задачата, чието решение съдържа.
+
+
+    *) Съдържанието на новият файл ще се отвори в прозореца в дясно.
+
+
+    *) Отидете във файла hello.js и създайте функцията hello(). Можете да си помогнете с картинката по-долу:
+
+function hello() {
+  console.log("Hello SoftUni");
+}
+
+
+    *) Стартирайте програмата с: Ctrl + F5. За да получим резултат трябва да "извикаме" функцията:
+
+function hello() {
+  console.log("Hello SoftUni");
+}
+
+hello();
+
+
+    *) Можем да видим резултата в конзолата по-долу:
+
+[Running] node "/Users/borasam/VSCProjects/JavaScript/JavaScript_01_programming_basics_2022/20220205_01_L_first_steps_in_coding/01_hello.js"
+Hello SoftUni
+
+[Done] exited with code=0 in 1.524 seconds
