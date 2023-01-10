@@ -1,14 +1,30 @@
-// 20220209 - JavaScript - Programming Basics - First Steps in Coding
- - Trapezoid Area
-// judge url: https://judge.softuni.org/Contests/Practice/Index/1642#0
+20220209 - JavaScript - Programming Basics - First Steps in Coding
+Additional 01 - Trapezoid Area - judge: https://judge.softuni.org/Contests/Practice/Index/1642#0
 
-function trapeziodArea(input) {
-    let b1 = Number(input[0]);
-    let b2 = Number(input[1]);
-    let h = Number(input[2]);
 
-    let area = (b1 + b2) * h / 2;
+Напишете програма, която чете от конзолата три числа b1, b2 и h и пресмята лицето на трапец с основи b1 и b2 и височина h.
 
-    console.log(area.toFixed(2));
-}
-trapeziodArea(["8", "13", "7"]);
+Формулата за лице на трапец е (b1 + b2) * h / 2.
+
+На фигурата по-долу (виж текстовия файл) е показан трапец със страни 8 и 13 и височина 7.
+Той има лице (8 + 13) * 7 / 2 = 73.5.
+
+Отговорът трябва да е форматиран до втората цифра след десетичния знак.
+
+
+______________ Test Data ________________
+
+
+Input 1:
+-------
+8
+13
+7
+
+
+Output 1:
+--------
+73.50
+
+
+-----------------------------------------
