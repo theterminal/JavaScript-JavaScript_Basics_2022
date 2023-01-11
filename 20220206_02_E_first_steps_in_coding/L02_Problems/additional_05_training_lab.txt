@@ -1,5 +1,5 @@
-// 20220209 - JavaScript - Programming Basics - First Steps in Coding
-// Additional 05 - Training Lab - judge: https://judge.softuni.org/Contests/Practice/Index/1642#4
+20220209 - JavaScript - Programming Basics - First Steps in Coding
+Additional 05 - Training Lab - judge: https://judge.softuni.org/Contests/Practice/Index/1642#4
 
 
 Учебна зала има правоъгълен размер w на h метра, без колони във вътрешността си.

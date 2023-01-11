@@ -1,5 +1,5 @@
-// 20220209 - JavaScript - Programming Basics - First Steps in Coding
-// Additional 03 - Celsius to Fahrenheit - judge: https://judge.softuni.org/Contests/Practice/Index/1642#2
+20220209 - JavaScript - Programming Basics - First Steps in Coding
+Additional 03 - Celsius to Fahrenheit - judge: https://judge.softuni.org/Contests/Practice/Index/1642#2
 
 
 Напишете програма, която чете градуси по скалата на Целзий (°C) и ги преобразува до градуси по скалата на Фаренхайт (°F).

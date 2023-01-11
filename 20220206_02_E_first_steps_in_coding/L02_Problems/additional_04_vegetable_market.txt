@@ -1,5 +1,5 @@
-// 20220209 - JavaScript - Programming Basics - First Steps in Coding
-// Additional 04 - Vegetable Market - judge: https://judge.softuni.org/Contests/Practice/Index/1642#3
+20220209 - JavaScript - Programming Basics - First Steps in Coding
+Additional 04 - Vegetable Market - judge: https://judge.softuni.org/Contests/Practice/Index/1642#3
 
 
 Градинар продавал реколтата от градината си на зеленчуковата борса.

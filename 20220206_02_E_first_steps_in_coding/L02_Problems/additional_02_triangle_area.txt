@@ -1,5 +1,5 @@
-// 20220209 - JavaScript - Programming Basics - First Steps in Coding
-// Additional 02 - Triangle Area - judge: https://judge.softuni.org/Contests/Practice/Index/1642#1
+20220209 - JavaScript - Programming Basics - First Steps in Coding
+Additional 02 - Triangle Area - judge: https://judge.softuni.org/Contests/Practice/Index/1642#1
 
 
 Напишете програма, която чете от конзолата страна и височина на триъгълник и пресмята неговото лице.

@@ -1,5 +1,5 @@
-// 20220209 - JavaScript - Programming Basics - First Steps in Coding
-// Additional 06 - Fishland - judge: https://judge.softuni.org/Contests/Practice/Index/1642#5
+20220209 - JavaScript - Programming Basics - First Steps in Coding
+Additional 06 - Fishland - judge: https://judge.softuni.org/Contests/Practice/Index/1642#5
 
 
 Георги ще има гости вечерта и решава да ги нагости с паламуд, сафрид и миди.
