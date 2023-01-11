@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 06 - Repainting - judge: https://judge.softuni.org/Contests/Compete/Index/2400#5
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+06 - Repainting - judge: https://judge.softuni.org/Contests/Compete/Index/2400#5
 
 
 Румен иска да пребоядиса хола и за целта е наел майстори.

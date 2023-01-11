@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 04 - Vacation Books List - judge: https://judge.softuni.org/Contests/Compete/Index/2400#3
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+04 - Vacation Books List - judge: https://judge.softuni.org/Contests/Compete/Index/2400#3
 
 
 За лятната ваканция в списъка със задължителна литература на Жоро има определен брой книги.

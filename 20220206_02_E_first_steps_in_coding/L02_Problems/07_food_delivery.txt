@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 07 - Food Delivery - judge: https://judge.softuni.org/Contests/Compete/Index/2400#6
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+07 - Food Delivery - judge: https://judge.softuni.org/Contests/Compete/Index/2400#6
 
 
 Ресторант отваря врати и предлага няколко менюта на преференциални цени: 

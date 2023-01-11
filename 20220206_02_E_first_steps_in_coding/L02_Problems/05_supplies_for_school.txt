@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 05 - Supplies For School - judge: https://judge.softuni.org/Contests/Compete/Index/2400#4
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+05 - Supplies For School - judge: https://judge.softuni.org/Contests/Compete/Index/2400#4
 
 Учебната година вече е започнала и отговорничката на 10Б клас - Ани трябва да купи определен брой пакетчета с химикали,
 пакетчета с маркери, както и препарат за почистване на дъска.

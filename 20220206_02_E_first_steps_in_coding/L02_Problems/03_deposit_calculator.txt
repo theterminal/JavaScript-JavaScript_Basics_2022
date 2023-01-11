@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 03 - Deposit Calculator - judge: https://judge.softuni.org/Contests/Compete/Index/2400#2
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+03 - Deposit Calculator - judge: https://judge.softuni.org/Contests/Compete/Index/2400#2
 
 
 Напишете програма, която изчислява каква сума ще получите в края на депозитния период при определен лихвен процент.

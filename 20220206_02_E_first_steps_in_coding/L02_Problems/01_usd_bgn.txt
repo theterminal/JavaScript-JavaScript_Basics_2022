@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 01 - USD / BGN converter - judge: https://judge.softuni.org/Contests/Compete/Index/2400#0
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+01 - USD / BGN converter - judge: https://judge.softuni.org/Contests/Compete/Index/2400#0
 
 
 Напишете функция за конвертиране на щатски долари (USD) в български лева (BGN).

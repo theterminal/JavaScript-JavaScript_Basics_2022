@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 09 - Fish Tank - judge: https://judge.softuni.org/Contests/Compete/Index/2400#8
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+09 - Fish Tank - judge: https://judge.softuni.org/Contests/Compete/Index/2400#8
 
 
 За рождения си ден Любомир получил аквариум с формата на паралелепипед.

@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 08 - Basketball Equipment - judge: https://judge.softuni.org/Contests/Compete/Index/2400#7
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+08 - Basketball Equipment - judge: https://judge.softuni.org/Contests/Compete/Index/2400#7
 
 
 Иван решава, че иска да се занимава с баскетбол, но за да тренира е нужна екипировка.

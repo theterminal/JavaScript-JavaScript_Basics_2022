@@ -1,5 +1,5 @@
-// 20220206 - JavaScript - Programming Basics - First Steps in Coding
-// 02 - Radians To Degrees converter - judge: https://judge.softuni.org/Contests/Compete/Index/2400#1
+20220206 - JavaScript - Programming Basics - First Steps in Coding
+02 - Radians To Degrees converter - judge: https://judge.softuni.org/Contests/Compete/Index/2400#1
 
 
 Напишете програма, която чете ъгъл в радиани (десетично число) и го преобразува в градуси.
