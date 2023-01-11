@@ -1,0 +1,55 @@
+20220209 - JavaScript - Programming Basics - First Steps in Coding
+Additional 09 - Weather Forecast - judge: https://judge.softuni.org/Contests/Practice/Index/1642#8
+
+
+Напишете програма, която познава дали е топло или студено навън.
+От конзолата се чете един ред – текст, който подсказва какво е времето.
+При въвеждане на "sunny" трябва да се отпечата "It's warm outside!”.
+Във всички останали случаи трябва да се отпечата "It's cold outside!". 
+
+
+______________ Test Data ________________
+
+
+Input 1:
+-------
+["sunny"]
+
+
+Output 1:
+--------
+It's warm outside!
+
+
+-----------------------------------------
+
+
+Input 2:
+-------
+["cloudy"]
+
+
+Output 2:
+--------
+It's cold outside!
+
+
+-----------------------------------------
+
+
+Input 3:
+-------
+["snowy"]
+
+
+Output 3:
+--------
+It's cold outside!
+
+
+-----------------------------------------
+
+
+Насоки:
+------
+Потърсете информация за if-else конструкцията.
