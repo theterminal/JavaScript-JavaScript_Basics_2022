@@ -14,3 +14,4 @@ function numbersNTo1(input) {
 numbersNTo1(["2"]);
 numbersNTo1(["3"]);
 numbersNTo1(["5"]);
+
