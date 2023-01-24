@@ -1,0 +1,75 @@
+20220219 - JavaScript - Nested Conditional Statements
+02 - Weekend Or Work Day - judge: https://judge.softuni.org/Contests/Compete/Index/2403#1
+
+
+Напишете функция която, чете ден от седмицата (текст), на английски език - въведен от потребителя.
+Ако денят е работен отпечатва на конзолата - "Working day", ако е почивен - “Weekend".
+Ако се въведе текст различен от ден от седмицата да се отпечата - "Error".
+
+
+_____________ Test Data ______________
+
+
+Input 1:
+-------
+(["Monday"])
+
+
+Output 1:
+--------
+Working day
+
+
+--------------------------------------
+
+
+Input 2:
+-------
+(["Sunday"])
+
+
+Output 2:
+--------
+Weekend
+
+
+--------------------------------------
+
+
+Input 3:
+-------
+(["April"])
+
+
+Output 3:
+--------
+Error
+
+
+--------------------------------------
+
+
+Насоки:
+------
+Отпечатайте работен или почивен ден, според въведения ден, ако денят е невалиден отпечатайте "Error":
+
+
+--------------------------------------
+
+
+switch(day) {
+        case "Monday":
+        case "Tuesday":
+        case "Wednesday":
+        case "Thursday":
+        case "Friday":
+            console.log("Working day");
+            break;
+        case "Saturday":
+        case "Sunday":
+            console.log("Weekend");
+            break;
+        default:
+            console.log("Error");
+            break;
+    }

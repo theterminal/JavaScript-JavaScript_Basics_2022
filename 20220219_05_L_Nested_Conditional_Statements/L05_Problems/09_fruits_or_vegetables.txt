@@ -1,0 +1,65 @@
+20220219 - JavaScript - Nested Conditional Statements
+09 - Fruits Or Vegetables - judge: https://judge.softuni.org/Contests/Compete/Index/2403#8
+
+
+Да се напише функция, която получава аргумент  име на продукт  и проверява дали е плод или зеленчук.
+    *) Плодовете "fruit" имат следните възможни стойности:  banana, apple, kiwi, cherry, lemon и grapes
+    *) Зеленчуците "vegetable" имат следните възможни стойности:  tomato, cucumber, pepper и carrot
+    *) Всички останали са "unknown"
+
+Да се изведе "fruit", "vegetable" или "unknown" според въведения продукт.
+
+
+_____________ Test Data ______________
+
+
+Input 1:
+-------
+(["banana"])
+
+
+Output 1:
+--------
+fruit
+
+
+--------------------------------------
+
+
+Input 2:
+-------
+(["apple"])
+
+
+Output 2:
+--------
+fruit
+
+
+--------------------------------------
+
+
+Input 3:
+-------
+(["tomato"])
+
+
+Output 3:
+--------
+vegetable
+
+
+--------------------------------------
+
+
+Input 4:
+-------
+(["water"])
+
+
+Output 4:
+--------
+unknown
+
+
+--------------------------------------
