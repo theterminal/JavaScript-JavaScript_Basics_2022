@@ -1,0 +1,136 @@
+20220303 - JavaScript - While Loop
+01 - Old Books - judge: https://judge.softuni.org/Contests/Compete/Index/2408#0
+
+
+Ани отива до родния си град след много дълъг период извън страната.
+Прибирайки се вкъщи тя вижда старата библиотека на баба си и си спомня за любимата си книга.
+
+Помогнете на Ани, като напишете функция, в която тя въвежда търсената от нея книга (текст). 
+
+Докато Ани не намери любимата си книга или не провери всички в библиотеката, програмата трябва да чете всеки път на нов ред
+името на всяка следваща книга (текст).
+
+Книгите в библиотеката са свършили щом получите текст "No More Books".
+    *) Ако не открие книгата да се отпечата на два реда:
+       "The book you search is not here!"
+       "You checked {брой} books."
+
+    *) Ако открие книгата си се отпечатва един ред:
+       "You checked {брой} books and found it."
+
+
+____________ Test Data ____________
+
+
+Input 1:
+-------
+(["Troy",
+"Stronger",
+"Life Style",
+"Troy"])
+
+
+Output 1:
+--------
+You checked 2 books and found it.
+
+
+Comment 1:
+---------
+Книгата която Ани търси, в случая е Troy, а библиотеката съдържа 3 книги.
+Първата е Stronger, втората е Life Style, третата книга е търсената – Troy и програмата приключва.
+
+
+------------------------------------
+
+
+Input 2:
+-------
+(["The Spot",
+"Hunger Games",
+"Harry Potter",
+"Torronto",
+"Spotify",
+"No More Books"])
+
+
+Output 2:
+--------
+The book you search is not here!
+You checked 4 books.
+
+
+Comment 2:
+---------
+Книгата, която търси Ани е "The Spot".
+Библиотеката съдържа 4 книги.
+Първата е Hunger Games, втората Harry Potter, третата Torronto, а четвъртата Spotify.
+Понеже няма повече книги в библиотеката четенето на имена приключва.
+Ани не намери книгата, която търсеше. 
+
+
+------------------------------------
+
+
+Input 3:
+-------
+(["Bourne",
+"True Story",
+"Forever",
+"More Space",
+"The Girl",
+"Spaceship",
+"Strongest",
+"Profit",
+"Tripple",
+"Stella",
+"The Matrix",
+"Bourne"])
+
+
+Output 3:
+--------
+You checked 10 books and found it.
+
+
+------------------------------------
+
+
+Насоки:
+------
+*) Извадете любимата книга от масива с данни, който приема функцията.
+
+let favoriteBook = input[0];
+
+
+*) Направете още две помощни променливи в началото, които да следят, дали книгата е намерена или всички книги са проверени.
+   Едната променлива ще е брояч и трябва да е число и с първоначална стойност едно.
+   С нея ще следим, колко книги са проверени.
+   Другата променлива трябва да е с началната стойност false.
+
+let index = 1;
+let bookIsFound = false;
+
+
+*) Ако книгата, която получихте от аргумента съвпада с любимата книга на Ани, презапишете стойността на променливата от булев тип,
+   и прекратете цикъла, в противен случай увеличете брояча с едно.
+
+let nextBookName = input[index];
+while (nextBookName !== "No More Books") {
+    if (nextBookName === favoriteBook) {
+        bookIsFound = true;
+        break;
+    }
+    index++;
+    nextBookName = input[index];
+}
+
+
+*) Според това, дали книгата е намерена, принтирайте нужните съобщения.
+
+if (bookIsFound === false) {
+    console.log("The book you search is not here!");
+    console.log(`You checked ${index -1} books.`);
+} else {
+    console.log(`You checked ${index -1} books and found it.`);
+}
