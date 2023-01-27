@@ -1,5 +1,5 @@
 20220317 - JavaScript - While Loop
-Drawing 07 -  - judge: https://judge.softuni.org/Contests/Practice/Index/1851#6
+Drawing 07 - Christmas Tree - judge: https://judge.softuni.org/Contests/Practice/Index/1851#6
 
 
 Напишете програма, която чете число n (1 ≤ n ≤ 100),
