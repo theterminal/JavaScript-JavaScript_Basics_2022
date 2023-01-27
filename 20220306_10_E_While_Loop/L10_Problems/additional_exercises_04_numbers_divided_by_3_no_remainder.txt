@@ -1,0 +1,25 @@
+20220312 - JavaScript - While Loop
+Additional 04 - Numbers Divided by 3 Without Reminder - judge: https://judge.softuni.org/Contests/Practice/Index/1684#3
+
+
+Напишете програма, която печата всички числа в интервала от 1 до 100, който се делят на 3 без остатък, по едно на ред.
+
+
+____________ Test Data ____________
+
+
+Input 1:
+-------
+(няма)
+
+
+Output 1:
+--------
+3
+6
+9
+...
+99
+
+
+------------------------------------
