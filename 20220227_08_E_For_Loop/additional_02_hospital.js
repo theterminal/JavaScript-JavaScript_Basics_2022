@@ -11,6 +11,7 @@ function hospital(input) {
         if (dayCounter % 3 === 0 && treatedPatients < unTreatedPatients) {
             doctors++;
         }
+
         patients = Number(input[index++]);
 
         if (patients >= doctors) {
@@ -19,11 +20,14 @@ function hospital(input) {
         } else {
             treatedPatients += patients;
         }
+
         dayCounter++;
     }
+
     console.log(`Treated patients: ${treatedPatients}.`);
     console.log(`Untreated patients: ${unTreatedPatients}.`);
 }
+
 
 hospital(["4", "7", "27", "9", "1"]);
 hospital(["6", "25", "25", "25", "25", "25", "2"]);
