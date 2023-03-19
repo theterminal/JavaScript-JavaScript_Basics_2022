@@ -39,8 +39,8 @@ function journey(input) {
     }
     console.log(`Somewhere in ${destination}`);
     console.log(`${sleepIn} - ${spent.toFixed(2)}`);
-    // console.log(`-------------------------- next input --------------------------------`)
 }
+
 
 journey(["50", "summer"]);
 journey(["75", "winter"]);
