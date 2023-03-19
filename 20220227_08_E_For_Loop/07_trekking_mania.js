@@ -2,7 +2,7 @@
 // 07 - Trekking Mania - judge: https://judge.softuni.org/Contests/Compete/Index/2406#6
 
 
-function trekingMania(input) {
+function trekkingMania(input) {
     let index = 0;
     let numGroups = Number(input[index++]);
     let group = 0;
@@ -38,5 +38,6 @@ function trekingMania(input) {
     console.log(`${percentEverest}%`);
 }
 
-trekingMania(["10", "10", "5", "1", "100", "12", "26", "17", "37", "40", "78"]);
-trekingMania(["5", "25", "41", "31", "250", "6"]);
+
+trekkingMania(["10", "10", "5", "1", "100", "12", "26", "17", "37", "40", "78"]);
+trekkingMania(["5", "25", "41", "31", "250", "6"]);
