@@ -1,5 +1,5 @@
 // 20220213 - JavaScript - Programming Basics - Conditional Statements
-// Additional 02 - Sleepe Cat Tom - judge: https://judge.softuni.org/Contests/Practice/Index/1658#1
+// Additional 02 - Sleepy Cat Tom - judge: https://judge.softuni.org/Contests/Practice/Index/1658#1
 
 
 function sleepyCatTom(input) {
