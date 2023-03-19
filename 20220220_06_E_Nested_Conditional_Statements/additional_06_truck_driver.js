@@ -25,9 +25,11 @@ function truckDriver(input) {
             case "Winter": payPerKms = 1.05; break;
         };
     }
+
     let totalPay = ((kmsPerMonth * 4 * payPerKms) * 0.90).toFixed(2);
     console.log(totalPay);
 }
+
 
 truckDriver(["Summer", "3455"]);
 truckDriver(["Winter", "4350"]);
