@@ -1,5 +1,5 @@
 // 20220228 - JavaScript - For Loops
-// 06 - Vowles Sum - judge: https://judge.softuni.org/Contests/Compete/Index/2405#5
+// 06 - Vowels Sum - judge: https://judge.softuni.org/Contests/Compete/Index/2405#5
 
 
 function vowelsSum(input) {
@@ -18,6 +18,7 @@ function vowelsSum(input) {
     }
     console.log(sum);
 }
+
 
 vowelsSum(["hello"]);
 vowelsSum(["hi"]);
