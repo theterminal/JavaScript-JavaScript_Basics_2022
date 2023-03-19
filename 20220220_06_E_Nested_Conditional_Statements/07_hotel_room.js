@@ -21,6 +21,7 @@ function hotelRoom(input) {
             studio = 76.00;
             apartment = 77.00; break;
     }
+
     if (month === "May" || month === "October") {
         if (numberNights > 14) {
             studio *= 0.70;
@@ -30,14 +31,17 @@ function hotelRoom(input) {
     } else if ((month === "June" || month === "September") && numberNights > 14) {
         studio *= 0.80;
     }
+
     if (numberNights > 14) {
         apartment *= 0.90;
     }
+
     apartment *= numberNights;
     studio *= numberNights; 
     console.log(`Apartment: ${apartment.toFixed(2)} lv.`);
     console.log(`Studio: ${studio.toFixed(2)} lv.`)
 }
+
 
 hotelRoom(["May", "15"]);
 hotelRoom(["June", "14"]);
