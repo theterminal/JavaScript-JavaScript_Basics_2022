@@ -1,8 +1,8 @@
 // 20220302 - JavaScript - For Loops
-// 08 - Tennis Ranklist - judge: https://judge.softuni.org/Contests/Compete/Index/2406#7
+// 08 - Tennis Rank List - judge: https://judge.softuni.org/Contests/Compete/Index/2406#7
 
 
-function tennisRanklist(input) {
+function tennisRankList(input) {
     let index = 0;
     let numTournaments = Number(input[index++]);
     let startPoints = Number(input[index++]);
@@ -17,6 +17,7 @@ function tennisRanklist(input) {
             case "SF": subPoints += 720 ; break;
         }
     }
+    
     let totalPoints = startPoints + subPoints;
     let averagePoints = Math.floor(subPoints / numTournaments);
     let percentWon = (counterWon / numTournaments * 100).toFixed(2);
@@ -26,5 +27,5 @@ function tennisRanklist(input) {
     console.log(`${percentWon}%`);
 }
 
-tennisRanklist(["5", "1400", "F", "SF", "W", "W", "SF"]);
-tennisRanklist(["4", "750", "SF", "W", "SF", "W"]);
+tennisRankList(["5", "1400", "F", "SF", "W", "W", "SF"]);
+tennisRankList(["4", "750", "SF", "W", "SF", "W"]);
