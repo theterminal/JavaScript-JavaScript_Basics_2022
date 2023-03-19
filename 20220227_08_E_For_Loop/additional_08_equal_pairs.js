@@ -12,20 +12,24 @@ function equalPairs(input) {
             num = Number(input[index++]);
             total += num;
         }
+
         diff = Math.abs(lastTotal - total);
 
         if (diff > maxDiff && i !== 0) {
             maxDiff = diff;
         }
+
         lastTotal = total;
         total = 0;
     }
+
     if (maxDiff === 0) {
         console.log(`Yes, value=${lastTotal}`);
     } else {
         console.log(`No, maxdiff=${maxDiff}`);
     }
 }
+
 
 equalPairs(["3", "1", "2", "0", "3", "4", "-1"]);
 equalPairs(["4", "1", "1", "3", "1", "2", "2", "0", "0"]);
