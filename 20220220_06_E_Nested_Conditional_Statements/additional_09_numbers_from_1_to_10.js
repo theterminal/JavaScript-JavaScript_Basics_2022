@@ -9,6 +9,8 @@ function numbers1To10() {
         i++;
     }
 }
+
+
 numbers1To10();
 
 
@@ -20,4 +22,6 @@ function numbersFrom1To10() {
         console.log(`${i}`);
     }
 }
+
+
 numbersFrom1To10();
