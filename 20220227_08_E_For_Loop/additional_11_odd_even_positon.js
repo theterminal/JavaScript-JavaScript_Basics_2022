@@ -31,6 +31,7 @@ function oddEvenPosition(input) {
             }
         }
     }
+
     minOdd = minOdd.toFixed(2);
     maxOdd = maxOdd.toFixed(2);
     minEven = minEven.toFixed(2);
@@ -45,6 +46,7 @@ function oddEvenPosition(input) {
         minEven = `No`;
         maxEven = `No`;
     }
+
     console.log(`OddSum=${sumOdd.toFixed(2)},`);
     console.log(`OddMin=${minOdd},`);
     console.log(`OddMax=${maxOdd},`);
@@ -52,6 +54,7 @@ function oddEvenPosition(input) {
     console.log(`EvenMin=${minEven},`);
     console.log(`EvenMax=${maxEven}`);
 }
+
 
 oddEvenPosition(["6", "2", "3", "5", "4", "2", "1"]);
 oddEvenPosition(["0"]);
