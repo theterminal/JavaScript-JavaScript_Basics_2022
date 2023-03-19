@@ -35,20 +35,25 @@ function flowers(input) {
             }
             break;
     }
+
     let totalCost = (numChrysanthemums * priceChrysanthemums) + (numRoses * priceRoses) + (numTulips * priceTulips);
 
     if (season === "Spring" && numTulips > 7 ) {
         totalCost *= 0.95;
     }
+
     if (season === "Winter" && numRoses >= 10) {
         totalCost *= 0.90;
     }
+
     if (totalFlowers > 20) {
         totalCost *= 0.80;
     }
+
     totalCost += 2;
     console.log(totalCost.toFixed(2));
 }
+
 
 flowers(["2", "4", "8", "Spring", "Y"]);
 flowers(["3", "10", "9", "Winter", "N"]);
