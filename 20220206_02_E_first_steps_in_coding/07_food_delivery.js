@@ -2,16 +2,16 @@
 // 07 - Food Delivery - judge: https://judge.softuni.org/Contests/Compete/Index/2400#6
 
 
-function foodDelivery(input) {
-    let numChickenMenues = Number(input[0]);
-    let numFishMenues = Number(input[1]);
-    let numVegitarianMenues = Number(input[2]);
+function foodDelivery(inputArray) {
+    let numChickenMenus = Number(inputArray[0]);
+    let numFishMenus = Number(inputArray[1]);
+    let numVegetarianMenus = Number(inputArray[2]);
     
-    let vegitarianMenuesBGN = numVegitarianMenues * 8.15;
-    let chickenMenuesBGN = numChickenMenues * 10.35;
-    let fishMenuesBGN = numFishMenues * 12.40;
+    let vegetarianMenusBGN = numVegetarianMenus * 8.15;
+    let chickenMenusBGN = numChickenMenus * 10.35;
+    let fishMenusBGN = numFishMenus * 12.40;
     
-    let subTotal1 = chickenMenuesBGN + fishMenuesBGN + vegitarianMenuesBGN;
+    let subTotal1 = chickenMenusBGN + fishMenusBGN + vegetarianMenusBGN;
     let desertBGN = subTotal1 * 0.20;
     let subTotal2 = subTotal1 + desertBGN
     let deliveryBGN = 2.50;
