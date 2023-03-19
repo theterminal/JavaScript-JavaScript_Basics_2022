@@ -2,7 +2,7 @@
 // Additional 01 - Trapezoid Area - judge: https://judge.softuni.org/Contests/Practice/Index/1642#0
 
 
-function trapeziodArea(input) {
+function trapezoidArea(input) {
     let b1 = Number(input[0]);
     let b2 = Number(input[1]);
     let h = Number(input[2]);
@@ -12,4 +12,4 @@ function trapeziodArea(input) {
     console.log(area.toFixed(2));
 }
 
-trapeziodArea(["8", "13", "7"]);
+trapezoidArea(["8", "13", "7"]);
