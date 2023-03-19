@@ -18,6 +18,7 @@ function footballLeague(input) {
             case "G": counterG++; break;
         }
     }
+
     let percentSectionA = (counterA / numAllFans * 100).toFixed(2);
     let percentSectionB = (counterB / numAllFans * 100).toFixed(2);
     let percentSectionV = (counterV / numAllFans * 100).toFixed(2);
@@ -30,6 +31,7 @@ function footballLeague(input) {
     console.log(`${percentSectionG}%`);
     console.log(`${percentAllToStadium}%`);
 }
+
 
 footballLeague(["76", "10", "A", "V", "V", "V", "G", "B", "A", "V", "B", "B"]);
 footballLeague(["93", "16", "A", "V", "G", "G", "B", "B", "G", "B", "A", "B", "B", "B", "A", "B", "B", "A"]);
