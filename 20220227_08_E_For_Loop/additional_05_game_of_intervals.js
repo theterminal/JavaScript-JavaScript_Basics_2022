@@ -4,11 +4,11 @@
 
 function gameOfIntervals(input) {
     let index = 0;
-    let numStpes = Number(input[index++]);
+    let numSteps = Number(input[index++]);
     let num = 0; let score = 0; let counterAll = 0;
     let counter0_9 = 0; let counter10_19 = 0; let counter20_29 = 0; let counter30_39 = 0; let counter40_50 = 0; let counterInvalid = 0;  
 
-    for (let i = 0; i < numStpes; i++) {
+    for (let i = 0; i < numSteps; i++) {
         num = Number(input[index++]);
         counterAll++;
         
@@ -32,6 +32,7 @@ function gameOfIntervals(input) {
             counterInvalid++;
         }
     }
+
     let percent0_9 = (counter0_9 / counterAll * 100).toFixed(2);
     let percent10_19 = (counter10_19 / counterAll * 100).toFixed(2);
     let percent20_29 = (counter20_29 / counterAll * 100).toFixed(2);
@@ -47,5 +48,6 @@ function gameOfIntervals(input) {
     console.log(`From 40 to 50: ${percent40_50}%`);
     console.log(`Invalid numbers: ${percentInvalid}%`);
 }
+
 
 gameOfIntervals(["10", "43", "57", "-12", "23", "12", "0", "50", "40", "30", "20"]);
