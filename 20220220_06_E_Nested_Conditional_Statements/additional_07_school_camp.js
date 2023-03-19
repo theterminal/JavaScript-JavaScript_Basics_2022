@@ -13,23 +13,24 @@ function schoolCamp(input) {
     switch (season) {
         case "Winter":
             switch (groupType) {
-                case "boys": priceNight = 9.60 ; typeSport = "Judo"; break;
-                case "girls": priceNight = 9.60 ; typeSport = "Gymnastics"; break;
+                case "boys": priceNight = 9.60; typeSport = "Judo"; break;
+                case "girls": priceNight = 9.60; typeSport = "Gymnastics"; break;
                 case "mixed": priceNight = 10.00; typeSport = "Ski"; break;
             }; break;
         case "Spring":
             switch (groupType) {
-                case "boys": priceNight = 7.20 ; typeSport = "Tennis"; break;
-                case "girls": priceNight = 7.20 ; typeSport = "Athletics"; break;
+                case "boys": priceNight = 7.20; typeSport = "Tennis"; break;
+                case "girls": priceNight = 7.20; typeSport = "Athletics"; break;
                 case "mixed": priceNight = 9.50; typeSport = "Cycling"; break;
             }; break;
         case "Summer":
             switch (groupType) {
-                case "boys": priceNight = 15.00 ; typeSport = "Football"; break;
-                case "girls": priceNight = 15.00 ; typeSport = "Volleyball"; break;
+                case "boys": priceNight = 15.00; typeSport = "Football"; break;
+                case "girls": priceNight = 15.00; typeSport = "Volleyball"; break;
                 case "mixed": priceNight = 20.00; typeSport = "Swimming"; break;
             }; break;
     }
+
     let totalPrice = numNights * numStudents * priceNight;
 
     if (numStudents >= 50) {
@@ -42,6 +43,7 @@ function schoolCamp(input) {
 
     console.log(`${typeSport} ${totalPrice.toFixed(2)} lv.`);
 }
+
 
 schoolCamp(["Spring", "girls", "20", "7"]);
 schoolCamp(["Winter", "mixed", "9", "15"]);
