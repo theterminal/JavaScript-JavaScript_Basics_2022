@@ -32,6 +32,7 @@ function vacation(input) {
     console.log(`${location} - ${sleepIn} - ${price.toFixed(2)}`);
 }
 
+
 vacation(["800", "Summer"]);
 vacation(["799.50", "Winter"]);
 vacation(["3460", "Summer"]);
