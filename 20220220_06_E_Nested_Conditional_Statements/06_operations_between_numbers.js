@@ -16,7 +16,9 @@ function operationsBetweenNumbers(input) {
         } else {
             result = n1 * n2;
         }
+
         isEven = result % 2 === 0;
+
         if (isEven) {
             evenOdd = "even";
         } else {
@@ -32,9 +34,11 @@ function operationsBetweenNumbers(input) {
             } else {
                 result = n1 % n2;
             }
+            
             console.log(`${n1} ${operator} ${n2} = ${result}`);}
     }
 }
+
 
 operationsBetweenNumbers(["10", "12", "+"]);
 operationsBetweenNumbers(["10", "1", "-"]);
