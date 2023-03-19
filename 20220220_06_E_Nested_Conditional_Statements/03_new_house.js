@@ -14,23 +14,28 @@ function newHouse(input) {
         if (numFlowers > 80) {
             price *= 0.9;
         } break;
+
         case "Dahlias": price = 3.80;
         if (numFlowers > 90) {
             price *= 0.85;
         } break;
+
         case "Tulips": price = 2.80;
         if (numFlowers > 80) {
             price *= 0.85;
         } break;
+
         case "Narcissus": price = 3;
         if (numFlowers < 120) {
             price *= 1.15;
         } break;
+
         case "Gladiolus": price = 2.50;
         if (numFlowers < 80) {
             price *= 1.2;
         } break; 
     }
+    
     total = numFlowers * price;
     diff = (Math.abs(budget - total)).toFixed(2);
 
@@ -40,6 +45,7 @@ function newHouse(input) {
         console.log(`Not enough money, you need ${diff} leva more.`);
     }
 }
+
 
 newHouse(["Roses", "55", "250"]);
 newHouse(["Tulips", "88", "260"]);
