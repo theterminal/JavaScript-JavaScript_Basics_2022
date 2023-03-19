@@ -25,11 +25,13 @@ function carToGo(input) {
         carType = "Jeep";
         carPrice = 0.90;
     }
+
     carPrice *= budget;
 
     console.log(`${carClass}`);
     console.log(`${carType} - ${carPrice.toFixed(2)}`);
 }
+
 
 carToGo(["450", "Summer"]);
 carToGo(["450", "Winter"]);
