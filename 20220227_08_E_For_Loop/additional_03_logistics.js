@@ -24,6 +24,7 @@ function logistics(input) {
             totalTonsBus += currentLoadTons;
         }
     }
+
     let totalMoney = totalMoneyTrain + totalMoneyTruck + totalMoneyBus;
     let averageMoneyTon = (totalMoney / totalLoad).toFixed(2);
 
@@ -36,6 +37,7 @@ function logistics(input) {
     console.log(`${percentTruck}%`);
     console.log(`${percentTrain}%`);
 }
+
 
 logistics(["4", "1", "5", "16", "3"]);
 logistics(["5", "2", "10", "20", "1", "7"]);
