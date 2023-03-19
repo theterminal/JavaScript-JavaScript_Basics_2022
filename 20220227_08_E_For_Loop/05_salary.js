@@ -1,5 +1,5 @@
 // 20220302 - JavaScript - For Loops
-// 05 - Slaray - judge: https://judge.softuni.org/Contests/Compete/Index/2406#4
+// 05 - Salary - judge: https://judge.softuni.org/Contests/Compete/Index/2406#4
 
 
 function salary(input) {
@@ -23,10 +23,12 @@ function salary(input) {
             break;
         }
     }
+
     if (hasSalary) {
         console.log(Math.trunc(salary));
     } 
 }
+
 
 salary(["10", "750", "Facebook", "Dev.bg", "Instagram", "Facebook", "Reddit", "Facebook", "Facebook"]);
 salary(["3", "500", "Github.com", "Stackoverflow.com", "softuni.bg"]);
