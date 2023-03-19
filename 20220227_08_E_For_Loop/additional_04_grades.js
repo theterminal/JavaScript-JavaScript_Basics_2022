@@ -22,6 +22,7 @@ function grades(input) {
         }
         counterAll++;
     }
+
     let percent5 = (counter5 / counterAll * 100).toFixed(2);
     let percent4 = (counter4 / counterAll * 100).toFixed(2);
     let percent3 = (counter3 / counterAll * 100).toFixed(2);
@@ -34,6 +35,7 @@ function grades(input) {
     console.log(`Fail: ${percent2}%`);
     console.log(`Average: ${average}`);
 }
+
 
 grades(["10", "3.00", "2.99", "5.68", "3.01", "4", "4", "6.00", "4.50", "2.44", "5"]);
 grades(["6", "2", "3", "4", "5", "6", "2.2"]);
