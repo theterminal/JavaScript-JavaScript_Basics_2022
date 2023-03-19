@@ -3,7 +3,7 @@
 
 
 function repainting(input) {
-    let quntityPlasticNeeded = Number(input[0]);
+    let quantityPlasticNeeded = Number(input[0]);
     let quantityPaintNeeded = Number(input[1]);
     let quantityTinnerNeeded = Number(input[2]);
     let quantityLabor = Number(input[3]);
@@ -12,15 +12,15 @@ function repainting(input) {
     let pricePaint = 14.50;
     let priceTinner = 5.00;
 
-    let totalForPlastic = (quntityPlasticNeeded + 2) * pricePlastic;
+    let totalForPlastic = (quantityPlasticNeeded + 2) * pricePlastic;
     let totalForPaint = quantityPaintNeeded * 1.1 * pricePaint;
     let totalForTinner = quantityTinnerNeeded * priceTinner;
     
     let totalSupplies = totalForPlastic + totalForPaint + totalForTinner + priceBags;
     let totalForLabor = quantityLabor * totalSupplies * 0.3;
-    let totalExpence = totalSupplies + totalForLabor; 
+    let totalExpense = totalSupplies + totalForLabor; 
 
-    console.log(totalExpence);
+    console.log(totalExpense);
 }
 
 repainting(["10", "11", "4", "8"]);
