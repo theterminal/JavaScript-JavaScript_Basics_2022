@@ -12,6 +12,7 @@ function evenPowersOf2(input) {
     }
 }
 
+
 evenPowersOf2(["3"]);
 evenPowersOf2(["4"]);
 evenPowersOf2(["5"]);
@@ -39,7 +40,9 @@ evenPowersOf2(["7"]);
 // evenPowersOf2(["6"]);
 // evenPowersOf2(["7"]);
 
+
 // --------------------------------------- another way (3) ---------------------------------------------
+
 
 // 20220228 JavaScript Code - Even Powers Of 2 - judge url: https://judge.softuni.org/Contests/Compete/Index/2405#3
 
