@@ -1,5 +1,5 @@
 // 20220222 JavaScript - Nested Conditional Statements
-// Additional 08 - Point On Rectangel Border - judge: https://judge.softuni.org/Contests/Practice/Index/1663#7
+// Additional 08 - Point On Rectangle Border - judge: https://judge.softuni.org/Contests/Practice/Index/1663#7
 
 
 function pointOnRectangleBorder(input) {
