@@ -17,16 +17,18 @@ function cleverLily(input) {
             countBDOdd++;
         }
     }
-    moneyToys = countBDOdd * priceToy;
-    let totalRreceived = moneyBD + moneyToys;
-    let diff = (Math.abs(totalRreceived - priceWashingMachine)).toFixed(2);
 
-    if (totalRreceived >= priceWashingMachine) {
+    moneyToys = countBDOdd * priceToy;
+    let totalReceived = moneyBD + moneyToys;
+    let diff = (Math.abs(totalReceived - priceWashingMachine)).toFixed(2);
+
+    if (totalReceived >= priceWashingMachine) {
         console.log(`Yes! ${diff}`);
     } else {
         console.log(`No! ${diff}`);
     }
 }
+
 
 cleverLily(["10", "170.00", "6"]);
 cleverLily(["21", "1570.98", "3"]);
