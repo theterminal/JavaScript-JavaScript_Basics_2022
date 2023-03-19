@@ -33,14 +33,17 @@ function skiTrip(input) {
             }
             break;
     }
+
     if (grade === "positive") {
         price *= 1.25;
     } else {
         price *= 0.90;
     }
+
     let cost = (days * price).toFixed(2);
     console.log(`${cost}`);
 }
+
 
 skiTrip(["14", "apartment", "positive"]);
 skiTrip(["30", "president apartment", "negative"]);
