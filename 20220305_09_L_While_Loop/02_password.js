@@ -8,14 +8,16 @@ function password(input) {
     let password = input[index++];
     let entry = input[index++];
 
-    while (entry !== password && index < Number(input.length)) {  // This way you cannot make an infinate loop
+    while (entry !== password && index < Number(input.length)) {  // This way you cannot make an infinite loop
         entry = input[index++];
     }
+
     if (entry === password) {
         console.log(`Welcome ${user}!`);
     } else {
         console.log(`You didn't guess rigth!`)
     } 
 }
+
 
 password(["Nakov", "1234", "Pass", "1324", "1234"]);
