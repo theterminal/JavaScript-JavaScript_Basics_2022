@@ -14,14 +14,17 @@ function oldBooks(input) {
             console.log(`You checked ${bookCounter} books and found it.`);
             break;
         }
+
         if (currentBook === "No More Books") {
             console.log(`The book you search is not here!`);
             console.log(`You checked ${bookCounter} books.`);
             break;
         }
+
         bookCounter++;
     }
 }
+
 
 oldBooks(["Troy", "Stronger", "Life Style", "Troy"]);
 oldBooks(["The Spot", "Hunger Games", "Harry Potter", "Torronto", "Spotify", "No More Books"]);
