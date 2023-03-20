@@ -16,12 +16,14 @@ function vacation(input) {
         switch (action) {
             case "spend":
                 spendCounter++;
+
                 if (spendCounter === 5) {
                     console.log(`You can't save the money.`);
                     console.log(`${dayCounter}`);
                     isFlag = true;
                     break;
                 }
+
                 if (moneyAction >= moneyOnHand) {
                     moneyOnHand = 0;
                 } else {
@@ -31,17 +33,20 @@ function vacation(input) {
             case "save":
                 spendCounter = 0;
                 moneyOnHand += moneyAction;
+
                 if (moneyOnHand >= moneyVacation) {
                     console.log(`You saved the money for ${dayCounter} days.`);
                     isFlag = true;
                 };
                 break;
         }
+
         if (isFlag) {
             break;
         }
     }
 }
+
 
 vacation(["2000", "1000", "spend", "1200", "save", "2000"]);
 vacation(["110", "60", "spend", "10", "spend", "10", "spend", "10", "spend", "10", "spend", "10"]);
