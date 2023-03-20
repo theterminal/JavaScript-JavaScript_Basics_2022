@@ -11,9 +11,11 @@ function triangleOfDollars(input) {
         for (let j = 0; j < 1; j++) {
             result = result + "$ ";
         }
+
         console.log(result);
     }
 }
+
 
 triangleOfDollars(["2"]);
 triangleOfDollars(["3"]);
