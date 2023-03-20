@@ -5,7 +5,8 @@
 function rectangleNXNStars(input) {
     let index = 0;
     let num = Number(input[index++]);
-    let result = ""; let counter = 0;
+    let result = "";
+    let counter = 0;
 
     for (let i = 0; i < num; i++) {
         if (counter === 0) {
@@ -17,6 +18,7 @@ function rectangleNXNStars(input) {
         console.log(result);
     }
 }
+
 
 rectangleNXNStars(["2"]);
 rectangleNXNStars(["3"]);
