@@ -19,17 +19,20 @@ function sumOfTwoNumbers(input) {
                 flag = true;
                 break;
             }
+
             if (i === end && j === end) {
                 console.log(`${combCounter} combinations - neither equals ${magicNum}`);
                 flag = true;
                 break;
             }
         }
+
         if (flag) {
             break;
         }
     }
 }
+
 
 sumOfTwoNumbers(["1", "10", "5"]);
 sumOfTwoNumbers(["23", "24", "20"]);
