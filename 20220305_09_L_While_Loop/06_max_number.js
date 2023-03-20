@@ -18,8 +18,10 @@ function maxNumber(input) {
             }
         }
     }
+
     console.log(`${maxNumberEntered}`);
 }
+
 
 maxNumber(["100", "99", "80", "70", "Stop"]);
 maxNumber(["-10", "20", "-30", "Stop"]);
