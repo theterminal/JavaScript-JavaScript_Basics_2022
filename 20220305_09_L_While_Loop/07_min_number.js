@@ -18,8 +18,10 @@ function minNumber(input) {
             }
         }
     }
+
     console.log(`${minNumberEntered}`);
 }
+
 
 minNumber(["100", "99", "80", "70", "Stop"]);
 minNumber(["-10", "20", "-30", "Stop"]);
