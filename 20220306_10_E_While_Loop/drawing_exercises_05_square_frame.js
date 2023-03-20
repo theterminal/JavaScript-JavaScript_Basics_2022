@@ -17,10 +17,12 @@ function squareFrame(input) {
                 result = result + "- ";
             }
         }
+
         console.log(result);
         result = "";
     }
 }
+
 
 squareFrame(["3"]);
 squareFrame(["4"]);
