@@ -15,8 +15,10 @@ function combinations(input) {
             }
         }
     }
+
     console.log(counter);
 }
+
 
 combinations(["25"]);
 combinations(["20"]);
