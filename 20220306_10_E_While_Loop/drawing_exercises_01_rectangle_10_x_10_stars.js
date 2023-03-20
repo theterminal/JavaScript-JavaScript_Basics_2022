@@ -9,9 +9,11 @@ function rectangle10X10Stars() {
         for (let j = 0; j < 10; j++) {
             result = result + "*" ;
         }
+
         console.log(result);
         result = "";
     }
 }
+
 
 rectangle10X10Stars();
