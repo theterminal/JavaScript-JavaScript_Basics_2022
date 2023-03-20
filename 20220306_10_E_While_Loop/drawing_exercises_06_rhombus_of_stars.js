@@ -20,26 +20,32 @@ function rhombusOfStars(input) {
                 output += `${result}`;
             }
         }
+
         console.log(output);
         output = "";
     }
+
     output = "";
+
     for (let i = 1; i <= givenRows - 1; i++) {
         for (let j = 1; j <= givenRows - 1; j++) {
             for (let k = 1; k <= j; k++) {
                 result = ` `;
                 output += `${result}`
             }
+
             for (let k = 1; k <= startBottom - 1; k++) {
                 result = `* `;
                 output += `${result}`
             }
+
             startBottom--;
             console.log(output);
             output = "";
         }
     }
 }
+
 
 rhombusOfStars(["1"]);
 rhombusOfStars(["2"]);
