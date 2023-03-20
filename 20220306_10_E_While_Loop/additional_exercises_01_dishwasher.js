@@ -6,27 +6,29 @@ function dishwasher(input) {
     let index = 0;
     let numBottlesDetergent = Number(input[index++]);
     let detergent = numBottlesDetergent * 750;
-    let numDihsesAndPots = 0; let counterLoads = 0; let detergentUsed = 0; let counterDishes = 0; let counterPots = 0;
+    let numDishesAndPots = 0; let counterLoads = 0; let detergentUsed = 0; let counterDishes = 0; let counterPots = 0;
 
     while (true) {
-        numDihsesAndPots = input[index++];
+        numDishesAndPots = input[index++];
 
-        if (numDihsesAndPots === "End") {
+        if (numDishesAndPots === "End") {
             console.log(`Detergent was enough!`);
             console.log(`${counterDishes} dishes and ${counterPots} pots were washed.`);
             console.log(`Leftover detergent ${detergent} ml.`);
             break;
         }
-        numDihsesAndPots = Number(numDihsesAndPots);
+        
+        numDishesAndPots = Number(numDishesAndPots);
         counterLoads++;
 
         if (counterLoads % 3 === 0) {
-            counterPots = counterPots + numDihsesAndPots;
-            detergentUsed = numDihsesAndPots * 15;
+            counterPots = counterPots + numDishesAndPots;
+            detergentUsed = numDishesAndPots * 15;
         } else {
-            counterDishes = counterDishes + numDihsesAndPots;
-            detergentUsed = numDihsesAndPots * 5;
+            counterDishes = counterDishes + numDishesAndPots;
+            detergentUsed = numDishesAndPots * 5;
         }
+
         detergent -= detergentUsed;
 
         if (detergent < 0) {
