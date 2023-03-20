@@ -12,16 +12,20 @@ function accountBalance(input) {
             break;
         } else {
             deposit = Number(deposit);
+
             if (deposit < 0) {
                 console.log(`Invalid operation!`)
                 break;
             }
+
             total += deposit;
             console.log(`Increase: ${deposit.toFixed(2)}`);
         }
     }
+
     console.log(`Total: ${total.toFixed(2)}`);
 }
+
 
 accountBalance(["5.51", "69.42", "100", "NoMoreMoney"]);
 accountBalance(["120", "45.55", "-150"]);
