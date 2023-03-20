@@ -1,8 +1,8 @@
 // 20220303 - JavaScript - While Loop
-// 02 - Exam Preaparation - judge: https://judge.softuni.org/Contests/Compete/Index/2408#1
+// 02 - Exam Preparation - judge: https://judge.softuni.org/Contests/Compete/Index/2408#1
 
 
-function examPreaparation(input) {
+function examPreparation(input) {
     let index = 0;
     let numFails = Number(input[index++]);
     let problemName = 0; let grade = 0; let lastProblem = 0; let averageScore = 0;
@@ -18,6 +18,7 @@ function examPreaparation(input) {
             console.log(`Last problem: ${lastProblem}`);
             break;
         }
+
         numAllProblems++;
         lastProblem = problemName;
         sumGrades += grade;
@@ -34,5 +35,6 @@ function examPreaparation(input) {
     }
 }
 
-examPreaparation(["3", "Money", "6", "Story", "4", "Spring Time", "5", "Bus", "6", "Enough"]);
-examPreaparation(["2", "Income", "3", "Game Info", "6", "Best Player", "4"]);
+
+examPreparation(["3", "Money", "6", "Story", "4", "Spring Time", "5", "Bus", "6", "Enough"]);
+examPreparation(["2", "Income", "3", "Game Info", "6", "Best Player", "4"]);
