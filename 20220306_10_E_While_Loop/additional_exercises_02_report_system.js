@@ -15,6 +15,7 @@ function reportSystem(input) {
             console.log(`Failed to collect required money for charity.`);
             break;
         }
+
         entry = Number(entry);
         counterTransactions++;
 
@@ -36,6 +37,7 @@ function reportSystem(input) {
                 counterCard++;
             }
         }
+
         moneyTotal = moneyCash + moneyCard;
         
         if (moneyTotal >= sumNeeded) {
@@ -47,6 +49,7 @@ function reportSystem(input) {
         }
     }
 }
+
 
 reportSystem(["500", "120", "8", "63", "256", "78", "317"]);
 reportSystem(["600", "86", "150", "98", "227", "End"]);
