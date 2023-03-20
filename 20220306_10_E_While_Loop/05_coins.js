@@ -17,8 +17,10 @@ function coins(input) {
         else if (Math.trunc(change / 1) >= 1) {change = Math.trunc(change - 1);}
         counter++;
     }
+
     console.log(`${counter}`);
 }
+
 
 coins(["1.23"]);
 coins(["2"]);
