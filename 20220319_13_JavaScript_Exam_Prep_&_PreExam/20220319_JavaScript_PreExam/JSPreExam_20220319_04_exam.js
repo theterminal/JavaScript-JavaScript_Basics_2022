@@ -21,6 +21,7 @@ function exam(input) {
             counterFail++;
         }
     }
+
     let percent500 = (counter500600 / numStudents * 100).toFixed(2);
     let percent400 = (counter400499 / numStudents * 100).toFixed(2);
     let percent300 = (counter300399 / numStudents * 100).toFixed(2);
@@ -33,6 +34,7 @@ function exam(input) {
     console.log(`Fail: ${percentFail}%`);
     console.log(`Average: ${averageGrade}`);
 }
+
 
 exam(["10", "3.00", "2.99", "5.68", "3.01", "4", "4", "6.00", "4.50", "2.44", "5"]);
 exam(["6", "2", "3", "4", "5", "6", "2.2"]);
