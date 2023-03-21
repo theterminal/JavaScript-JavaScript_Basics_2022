@@ -15,15 +15,19 @@ function challengeTheWedding(input) {
                 flag = true;
                 break;
             }
+
             output = `${output} (${m} <-> ${w})`;
             counterTables++;
         }
+
         if (flag) {
             break;
         }
     }
+
     console.log(output);
 }
+
 
 challengeTheWedding(["2", "2", "6"]);
 challengeTheWedding(["2", "2", "3"]);
