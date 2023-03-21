@@ -16,6 +16,7 @@ function vetParking(input) {
                 } else {
                     feePerHour = 1.25;
                 }
+
                 dayTotal += feePerHour;
             }
         } else {
@@ -25,15 +26,19 @@ function vetParking(input) {
                 } else {
                     feePerHour = 1.00;
                 }
+
                 dayTotal += feePerHour;
             }
         }
+
         console.log(`Day: ${d} - ${dayTotal.toFixed(2)} leva`);
         total += dayTotal;
         dayTotal = 0;
     }
+
     console.log(`Total: ${total.toFixed(2)} leva`);
 }
+
 
 vetParking(["2", "5"]);
 vetParking(["5", "2"]);
