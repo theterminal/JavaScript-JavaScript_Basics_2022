@@ -14,7 +14,9 @@ function todaysDay() {
         case 6: text = "Today is Saturday"; break;
         default: text = "This default text should never be reached!"; break;
     }
+
   console.log(text);
 }
+
 
 todaysDay();
