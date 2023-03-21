@@ -20,6 +20,7 @@ function theSongOfTheWheels(input) {
                     counter++;
                     result = `${a}${b}${c}${d}`;
                     output += `${result} `;
+                    
                     if (counter === 4) {
                         password = result;
                         flag = true;
@@ -29,12 +30,14 @@ function theSongOfTheWheels(input) {
         }
     }
     console.log(output);
+    
     if (flag) {
         console.log(`Password: ${password}`);
     } else {
         console.log(`No!`);
     }
 }
+
 
 theSongOfTheWheels(["11"]);
 theSongOfTheWheels(["139"]);
