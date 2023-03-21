@@ -18,15 +18,30 @@ function safePasswordsGenerator(input) {
             output += `${result}|`;
             A++; B++;
 
-            if (A === 56) {A = 35;}
-            if (B === 97) {B = 64;}
+            if (A === 56) {
+                A = 35;
+            }
+
+            if (B === 97) {
+                B = 64;
+            }
+
             counter++;
-            if (counter === maxNumPasswords) {flag = true; break;}
+
+            if (counter === maxNumPasswords) {
+                flag = true;
+                break;
+            }
         }
-        if (flag) {break;}
+
+        if (flag) {
+            break;
+        }
     }
+
     console.log(output);
 }
+
 
 safePasswordsGenerator(["2", "3", "10"]);
 safePasswordsGenerator(["20", "50", "10"]);
