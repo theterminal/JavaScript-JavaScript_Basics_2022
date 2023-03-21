@@ -24,10 +24,12 @@ function building(input) {
                 }
             }
         }
+
         console.log(result);
         result = "";
     }
 }
+
 
 building(["6", "4"]);
 building(["9", "5"]);
