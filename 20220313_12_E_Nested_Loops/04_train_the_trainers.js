@@ -14,10 +14,12 @@ function trainTheTrainers(input) {
             console.log(`Student's final assessment is ${averageGradeTotal}.`);
             break;
         }
+
         for (let i = 0; i < numJury; i++) {
             thisGrade = Number(input[index++]);
             totalGrades += thisGrade;
         }
+
         averageGrade = totalGrades / numJury;
         console.log(`${name} - ${averageGrade.toFixed(2)}.`);
         totalGrades = 0;
@@ -26,6 +28,7 @@ function trainTheTrainers(input) {
         averageGradeTotal = (allGrades / counter).toFixed(2);
     }
 }
+
 
 trainTheTrainers(["2", "While-Loop", "6.00", "5.50", "For-Loop", "5.84", "5.66", "Finish"]);
 trainTheTrainers(["3", "Arrays", "4.53", "5.23", "5.00", "Lists", "5.83", "6.00", "5.42", "Finish"]);
