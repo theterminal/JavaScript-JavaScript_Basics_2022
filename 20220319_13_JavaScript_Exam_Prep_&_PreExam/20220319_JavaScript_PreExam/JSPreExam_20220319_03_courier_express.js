@@ -21,8 +21,7 @@ function courierExpress(input) {
                 pricePerKm = 0.15;
             } else if(weightOfPackage >= 90 && weightOfPackage < 150) {
                 pricePerKm = 0.20;
-            }
-        ;break
+            } ; break;
         case "express":
             if (weightOfPackage < 1) {
                 pricePerKm = 0.03 + (0.03 * 0.80 * weightOfPackage);
@@ -34,13 +33,13 @@ function courierExpress(input) {
                 pricePerKm = 0.15 + (0.15 * 0.02 * weightOfPackage);
             } else if(weightOfPackage >= 90 && weightOfPackage < 150) {
                 pricePerKm = 0.20 + (0.20 * 0.01 * weightOfPackage);
-            }
-        ;break
+            }; break;
     }
-    total = distanceKm * pricePerKm;
 
+    total = distanceKm * pricePerKm;
     console.log(`The delivery of your shipment with weight of ${weightOfPackage.toFixed(3)} kg. would cost ${total.toFixed(2)} lv.`);
 }
+
 
 courierExpress(["1.5", "standard", "100"]);
 courierExpress(["87", "express", "130"]);
