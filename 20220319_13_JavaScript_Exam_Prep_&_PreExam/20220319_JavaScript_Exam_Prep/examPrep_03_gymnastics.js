@@ -19,7 +19,7 @@ function gymnastics(input) {
             } else if (type === "rope") {
                 difficulty = 9.600;
                 performance = 9.000;
-            };break;
+            }; break;
         case "Bulgaria":
             if (type === "ribbon") {
                 difficulty = 9.600;
@@ -30,7 +30,7 @@ function gymnastics(input) {
             } else if (type === "rope") {
                 difficulty = 9.500;
                 performance = 9.400;
-            };break;
+            }; break;
         case "Italy":
             if (type === "ribbon") {
                 difficulty = 9.200;
@@ -41,14 +41,16 @@ function gymnastics(input) {
             } else if (type === "rope") {
                 difficulty = 9.700;
                 performance = 9.150;
-            };break;
+            }; break;
     }
+
     let totalScore = difficulty + performance;
     let percentNeededTo100 = 100 - (totalScore / 20 * 100);
 
     console.log(`The team of ${country} get ${totalScore.toFixed(3)} on ${type}.`);
     console.log(`${percentNeededTo100.toFixed(2)}%`);
 }
+
 
 gymnastics(["Bulgaria", "ribbon"]);
 gymnastics(["Russia", "rope"]);
