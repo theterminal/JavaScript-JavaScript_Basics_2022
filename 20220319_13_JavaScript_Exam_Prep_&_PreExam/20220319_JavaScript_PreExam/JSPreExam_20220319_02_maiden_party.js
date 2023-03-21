@@ -5,20 +5,20 @@
 function maidenParty(input) {
     let index = 0;
     let costMaidenParty = Number(input[index++]);
-    let numLoveMesseges = Number(input[index++]);
+    let numLoveMessages = Number(input[index++]);
     let numWaxRoses = Number(input[index++]);
-    let numKeychains = Number(input[index++]);
+    let numKeyChains = Number(input[index++]);
     let numCaricatures = Number(input[index++]);
     let numSurprises = Number(input[index++]);
 
-    let moneyLoveMesseges = numLoveMesseges * 0.60;
+    let moneyLoveMessages = numLoveMessages * 0.60;
     let moneyWaxRoses = numWaxRoses * 7.20;
-    let moneyKeychains = numKeychains * 3.60;
+    let moneyKeyChains = numKeyChains * 3.60;
     let moneyCaricatures = numCaricatures * 18.20;
     let moneySurprises = numSurprises * 22;
 
-    let totalMoney = moneyLoveMesseges + moneyWaxRoses + moneyKeychains + moneyCaricatures + moneySurprises;
-    let totalItemsOrdered = numLoveMesseges + numWaxRoses + numKeychains + numCaricatures + numSurprises;
+    let totalMoney = moneyLoveMessages + moneyWaxRoses + moneyKeyChains + moneyCaricatures + moneySurprises;
+    let totalItemsOrdered = numLoveMessages + numWaxRoses + numKeyChains + numCaricatures + numSurprises;
 
     if (totalItemsOrdered >= 25) {
         totalMoney *= 0.65;
@@ -33,6 +33,7 @@ function maidenParty(input) {
         console.log(`Not enough money! ${diff.toFixed(2)} lv needed.`);
     }
 }
+
 
 maidenParty(["40.8", "20", "25", "30", "50", "10"]);
 maidenParty(["320", "8", "2", "5", "5", "1"]);
