@@ -27,8 +27,10 @@ function equalSumsEvenOddPositions(input) {
             result = result + " " + numToTest;
         }
     }
+
     console.log(result);
 }
+
 
 equalSumsEvenOddPositions(["100000", "100050"]);
 equalSumsEvenOddPositions(["123456", "124000"]);
