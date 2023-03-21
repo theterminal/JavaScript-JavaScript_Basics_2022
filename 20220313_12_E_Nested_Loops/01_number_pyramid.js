@@ -17,6 +17,7 @@ function numberPyramid(input) {
                 break;
             }
         }
+
         console.log(result);
         result = "";
         
@@ -25,6 +26,7 @@ function numberPyramid(input) {
         }
     }
 }
+
 
 numberPyramid(["7"]);
 numberPyramid(["12"]);
