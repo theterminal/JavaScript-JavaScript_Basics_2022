@@ -14,6 +14,7 @@ function excursionSale(input) {
         if (typeOfPack === "Stop") {
             break;
         }
+
         switch(typeOfPack) {
             case "sea":
                 if (numSeaPacks <= 0) {
@@ -30,17 +31,20 @@ function excursionSale(input) {
                 numMountainPacks--;
             break;
         }
+
         if (numSeaPacks === 0 && numMountainPacks === 0) {
             console.log(`Good job! Everything is sold.`);
             break;
         }
     }
+
     let moneySea = counterSeaPacks * 680;
     let moneyMountain = counterMountainPacks * 499;
     let total = moneySea + moneyMountain;
 
     console.log(`Profit: ${total} leva.`)
 }
+
 
 excursionSale(["2", "2", "sea", "mountain", "sea", "sea", "mountain"]);
 excursionSale(["6", "3", "sea", "mountain", "mountain", "mountain", "sea", "Stop"])
