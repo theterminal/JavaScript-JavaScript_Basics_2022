@@ -20,8 +20,10 @@ function specialNumbers(input) {
             }
         }
     }
+
     console.log(output);
 }
+
 
 specialNumbers(["3"]);
 specialNumbers(["11"]);
