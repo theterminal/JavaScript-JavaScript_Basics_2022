@@ -7,12 +7,13 @@ function familyTrip(input) {
     let budget = Number(input[index++]);
     let numNights = Number(input[index++]);
     let pricePerNight = Number(input[index++]);
-    let percentAdditionalExpences = Number(input[index++]);
+    let percentAdditionalExpenses = Number(input[index++]);
 
     if (numNights > 7) {
         pricePerNight *= 0.95;
     }
-    let cost = numNights * pricePerNight + (budget * percentAdditionalExpences / 100);
+
+    let cost = numNights * pricePerNight + (budget * percentAdditionalExpenses / 100);
     let diff = Math.abs((budget - cost)).toFixed(2);
 
     if (budget >= cost) {
@@ -21,6 +22,7 @@ function familyTrip(input) {
         console.log(`${diff} leva needed.`);
     }
 }
+
 
 familyTrip(["800.50", "8", "100", "2"]);
 familyTrip(["500", "7", "66", "15"]);
