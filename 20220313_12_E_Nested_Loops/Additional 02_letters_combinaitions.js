@@ -7,7 +7,7 @@ function lettersCombination(input) {
     let start = input[index++];
     let end = input[index++];
     let excluded = input[index++];
-    let counterCombOuput = 0; let output = ""; let result = "";
+    let counterCombOutput = 0; let output = ""; let result = "";
     
     start = start.charCodeAt(0); end = end.charCodeAt(0); excluded = excluded.charCodeAt(0);
 
@@ -25,11 +25,11 @@ function lettersCombination(input) {
                 }
                 result = `${String.fromCharCode(i)}${String.fromCharCode(j)}${String.fromCharCode(k)}`;
                 output += `${result} `;
-                counterCombOuput++;
+                counterCombOutput++;
             }
         }
     }
-    console.log(`${output}${counterCombOuput}`);
+    console.log(`${output}${counterCombOutput}`);
 }
 
 lettersCombination(["a", "c", "b"]);
