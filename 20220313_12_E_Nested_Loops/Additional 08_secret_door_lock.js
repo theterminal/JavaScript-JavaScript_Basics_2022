@@ -14,6 +14,7 @@ function secretDoorLock(input) {
         if (i % 2 !== 0) {
             continue;
         }
+
         for (let j = 1; j <= pos10; j++) {
             if (j !== 2 && j !== 3 && j !== 5 && j !== 7) {
                 continue;
@@ -22,10 +23,12 @@ function secretDoorLock(input) {
                 if (k % 2 !== 0) {
                     continue;
                 }
+
                 if (Number(`${i}${j}${k}`) > maxNumber) {
                     flag = true;
                     break;
                 }
+
                 console.log(`${i} ${j} ${k}`);
             }
             if (flag) {
@@ -37,6 +40,7 @@ function secretDoorLock(input) {
         }
     }
 }
+
 
 secretDoorLock(["3", "5", "5"]);
 secretDoorLock(["8", "2", "8"]);
