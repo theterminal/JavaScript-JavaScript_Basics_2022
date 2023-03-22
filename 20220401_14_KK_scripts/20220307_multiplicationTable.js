@@ -8,9 +8,11 @@ function multiplicationTable() {
             product = i * j;
             result += `${product}, `;
         }
+
         console.log(result);
         result = "";
     }
 }
+
 
 multiplicationTable();
