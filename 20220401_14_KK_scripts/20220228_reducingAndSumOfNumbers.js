@@ -9,6 +9,7 @@ function sumOfNumbers(input) {
     for (let i = 0; i < n.length; i++) {
         sum += Number(n[i]);
     }
+
     console.log(`The "sum 1" of all digits is:${sum}`);
 
     if (sum > 9) {
@@ -20,6 +21,7 @@ function sumOfNumbers(input) {
     } else {
         sum2 = sum;
     }
+
     console.log(`The "sum 2" of all digits is:${sum}`);
 
     if (sum > 9) {
@@ -31,14 +33,16 @@ function sumOfNumbers(input) {
     } else {
         sum2 = sum;
     }
+
     console.log(`The "sum 3" of all digits is:${sum}`);
     console.log();
     console.log(`--------------------------------`);
 }
 
-// sumOfNumbers(["1234"]);
-// sumOfNumbers(["564891"]);
+
+sumOfNumbers(["1234"]);
+sumOfNumbers(["564891"]);
 sumOfNumbers(["019730206"]);
-// sumOfNumbers(["019790927"]);
-// sumOfNumbers(["020140414"]);
-// sumOfNumbers(["020200104"]);
+sumOfNumbers(["019790927"]);
+sumOfNumbers(["020140414"]);
+sumOfNumbers(["020200104"]);
