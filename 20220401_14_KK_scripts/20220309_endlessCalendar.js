@@ -19,6 +19,7 @@ function calendar() {
                         break;
                     }
                 }
+
                 switch (numDay) {
                     case 1: day = "Monday"; break;
                     case 2: day = "Tuesday"; break;
@@ -28,17 +29,20 @@ function calendar() {
                     case 6: day = "Saturday"; break;
                     case 7: day = "Sunday"; break;
                 }
-                console.log(`${y} / ${m} / ${d} - ${day}`);
 
+                console.log(`${y} / ${m} / ${d} - ${day}`);
                 numDay++;
+
                 if (numDay === 8) {
                     numDay = 1;
                 }
             }
         }
+
         console.log();
         counterLeap++;
     }
 }
+
 
 calendar();
