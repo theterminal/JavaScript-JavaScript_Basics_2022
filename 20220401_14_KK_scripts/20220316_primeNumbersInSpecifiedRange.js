@@ -13,6 +13,7 @@ function primeNumbersInSpecifiedRange(input) {
         if (i < 2) {                                            // It takes care of negative numbers, 0 and 1, which are NOT Prime Numbers
             continue;
         }
+
         for (j = 2; j < i; j++) {           
             counterAll++;       
             if (i % j === 0) {                                  // The actual finding of the Prime Numbers
@@ -20,6 +21,7 @@ function primeNumbersInSpecifiedRange(input) {
                 break;
             }
         }
+
         if (flag) {                                             // Collecting the result to output to user
             result = i;
             output += `${result}, `;
@@ -29,8 +31,10 @@ function primeNumbersInSpecifiedRange(input) {
             }
         }
     }
+
     let percentFromAll = (counterPrime / counterAll * 100).toFixed(2);
     console.log(`'Prime Numbers' in the Range [${startRange} : ${endRange}], are:\n ${output.slice(0, -2)}\n \n'Prime Numbers' in the Range [${startRange} : ${endRange}], are ${counterPrime} numbers from All Numbers\n'Prime Numbers' in the Range [${startRange} : ${endRange}], are ${percentFromAll}% from All Numbers`);
 }
+
 
 primeNumbersInSpecifiedRange([1, 49]);
